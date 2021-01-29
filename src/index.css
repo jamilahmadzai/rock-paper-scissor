@@ -145,3 +145,161 @@ img {
 .btn-play:focus {
   outline: none;
 }
+
+@media screen and (max-width: 700px) {
+  img {
+    width: 100px;
+    padding: 0px;
+    background: none;
+  }
+
+  .result h2 {
+    font-size: 20px;
+  }
+
+  .scores {
+    justify-content: space-evenly;
+  }
+
+  .score {
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 0;
+  }
+
+  .scores p {
+    margin-top: 0px;
+    font-size: 40px;
+  }
+
+  .computer-score {
+    margin-top: 10px;
+  }
+
+  .para {
+    position: absolute;
+    font-size: 30px;
+  }
+
+  .winner {
+    margin-top: 30px;
+    position: relative;
+  }
+
+  .win {
+    position: absolute;
+    display: inline;
+    left: 140px;
+    /* margin-right: 20px;
+  margin-left: 20px; */
+  }
+
+  .lose {
+    position: absolute;
+    display: inline;
+    right: 230px;
+    /* margin-right: 20px;
+  margin-left: 20px; */
+  }
+
+  .winner .para {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+
+  .green {
+    color: #32cd32;
+  }
+
+  .btn-play {
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: #066092;
+    background-color: #f7f7f7;
+    border: none;
+  }
+
+  body {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 90px;
+    padding: 0px;
+    background: none;
+  }
+
+  .result h2 {
+    font-size: 20px;
+  }
+
+  .scores {
+    display: inline;
+  }
+
+  .score {
+    display: inline-block;
+    margin: 10px 50px;
+  }
+
+  .scores p {
+    margin-top: 0px;
+    font-size: 40px;
+  }
+
+  .computer-score {
+    margin-top: 10px;
+  }
+
+  .para {
+    position: absolute;
+    font-size: 30px;
+  }
+
+  .winner {
+    margin-top: 30px;
+    position: relative;
+  }
+
+  .win {
+    position: absolute;
+    display: inline;
+    left: 140px;
+  }
+
+  .lose {
+    position: absolute;
+    display: inline;
+    right: 230px;
+  }
+
+  .winner .para {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+
+  .green {
+    color: #32cd32;
+  }
+
+  .btn-play {
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: #066092;
+    background-color: #f7f7f7;
+    border: none;
+  }
+
+  body {
+    text-align: center;
+    width: 100%;
+  }
+}
