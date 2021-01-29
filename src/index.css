@@ -78,3 +78,70 @@ img {
   border-color: transparent;
   box-shadow: 1px 1px 20px #f6f6f6;
 }
+
+.disable {
+  pointer-events: none;
+}
+
+.res {
+  display: inline;
+}
+
+.para {
+  position: absolute;
+  font-size: 50px;
+}
+
+.winner {
+  margin-top: 30px;
+  position: relative;
+}
+
+.win {
+  position: absolute;
+  display: inline;
+  left: 90px;
+  /* margin-right: 20px;
+  margin-left: 20px; */
+}
+
+.lose {
+  position: absolute;
+  display: inline;
+  right: 180px;
+  /* margin-right: 20px;
+  margin-left: 20px; */
+}
+
+.winner .para {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.green {
+  color: #32cd32;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.btn-play {
+  margin-top: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 20px;
+  color: #066092;
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.btn-play:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 20px #c5b9b9;
+}
+
+.btn-play:focus {
+  outline: none;
+}
